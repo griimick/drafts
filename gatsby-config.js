@@ -1,24 +1,25 @@
 module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-theme-blog`,
-      options: {},
-    },
-  ],
-  // Customize your site metadata:
-  siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
-    social: [
-      {
-        name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/gatsbyjs`,
-      },
-    ],
-  },
+	pathPrefix: "/drafts",
+	plugins: [
+		{
+			resolve: `gatsby-theme-blog`,
+			options: {},
+		},
+	],
+	// Customize your site metadata:
+	siteMetadata: {
+		title: `My Drafts`,
+		author: `griimick`,
+		description: `About things I want to understand`,
+		social: [
+			{
+				name: `twitter`,
+				url: `https://twitter.com/griimick`,
+			},
+			{
+				name: `github`,
+				url: `https://github.com/griimick`,
+			},
+		],
+	},
 }
